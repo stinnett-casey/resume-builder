@@ -1,0 +1,98 @@
+div#document {
+  line-height: 13px;
+}
+
+div#document table {
+  line-height: 13px;
+}
+
+div#document.pagesize {
+  width: 690px;
+}
+
+div#document.vmargins {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+div#document.hmargins {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+div#document .section {
+  margin-top: 6px;
+}
+
+div#document div.firstsection {
+  margin-top: 0;
+}
+
+div#document div.SECTION_CNTC {
+  margin-top: 0;
+}
+
+div#document div.heading {
+  margin-bottom: 2px;
+}
+
+div#document div.paragraph {
+  margin-top: 5px;
+}
+
+div#document div.firstparagraph {
+  margin-top: 0;
+}
+
+div#document .singlecolumn,
+div#document .maincolumn {
+  margin-left: 100px;
+}
+
+span.dates_wrapper {
+  width: 100px;
+  font-size: 10px;
+}
+
+.fontsize {
+  font-size: 11px;
+}
+
+.fontface {
+  font-family: Georgia, serif;
+}
+
+div#document .topborder {
+  border-top: 1px dotted;
+}
+
+div#document div.sectiontitle {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+div.name {
+  font-size: 23px;
+  line-height: 27px;
+}
+
+div.address {
+  font-size: 11px;
+  line-height: 13px;
+  margin-top: 4px;
+}
+
+div#document table.skills td {
+  padding-top: 2px;
+}
+/*FIX for Re-calculating width of singlecolumn for CL*/
+
+div#document .sectionCL .singlecolumn {
+  margin-left: 0!important;
+  width: 100%;
+}
+
+div.address2 {
+  font-size: 11px;
+  line-height: 13px;
+}
