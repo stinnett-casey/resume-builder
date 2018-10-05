@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Casey Resume</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+  </head>
+  <body>
+    <div id="document" class="fontsize fontface vmargins hmargins linespacing pagesize ui-sortable">
+      <div class="firstsection"></div>
+      <div class="firstsection" style="position: relative;">
+        <div class="section">
+          <div class="paragraph PARAGRAPH_NAME firstparagraph">
+            <div class="name">
+              <span class="field wwbw dib">Casey</span><span class="wwbw dib"></span>
+              <span class="field wwbw dib">Stinnett</span>
+            </div>
+          </div>
+        </div>
+        <div class="section SECTION_CNTC">
+          <div class="paragraph PARAGRAPH_CNTC firstparagraph">
+            <div class="address">
+              <span class="field">99 West 300 North</span><span>,</span>
+              <span class="spaced field">Bountiful</span><span>,</span>
+              <span class="spaced field">UT</span><span></span>
+              <span class="spaced field">84010</span>
+              <br>
+              <span class="field"></span><span>Cell: </span>
+              <span class="field">928-243-8696</span> <span> - </span>
+              <span class="field">stinnett.casey@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" style="position: relative;">
+        <div class="heading topborder">
+          <div class="sectiontitle">Professional Summary</div>
+        </div>
+        <div class="paragraph firstparagraph">
+          <div class="field singlecolumn" id="summary">
+            I am a passionate developer, passionate/loud/proud Christian, and I play well with others. I love people. I read a lot and learn as much as I can in order to serve people better.
+          </div>
+        </div>
+      </div>
+      <div class="section" style="position: relative;">
+        <div class="heading topborder">
+          <div class="sectiontitle">Skills</div>
+        </div>
+        <div class="paragraph firstparagraph">
+          <div class="singlecolumn maincolumn">
+            <table class="twocol">
+              <tbody>
+                <tr>
+                  <td class="field twocol_1">
+                    <ul>
+                      <li>Ruby</li>
+                      <li>Git &amp; GitHub</li>
+                      <li>Javascript &amp; jQuery</li>
+                      <li>ReactJS</li>
+                    </ul>
+                  </td>
+                  <td class="field twocol_2">
+                    <ul>
+                      <li>Bootstrap &amp; Materialize</li>
+                      <li>Ruby Gems</li>
+                      <li>Made restful_routing gem</li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+        <div class="section hoverBy ui-sortable hoverByRemove" style="position: relative;">
+          <div class="heading topborder">
+            <div class="sectiontitle">Work History</div>
+          </div>
+          <div class="paragraph firstparagraph">
+            <span class="dates_wrapper">
+              <span class="jobdates" format="%m/%Y">Oct 2018</span>
+              <span> to </span>
+              <span class="jobdates" format="%m/%Y">Current</span>
+            </span>
+            <div class="singlecolumn">
+              <span class="paddedline">
+                <span class="jobtitle">Ruby Developer</span>
+                <span></span>
+              </span>
+              <span class="paddedline">
+                <span class="companyname">Chargeback</span>
+                <span class="joblocation jobcity">Salt Lake City</span>
+                <span class="joblocation jobstate">Utah</span>
+                <br>
+              </span>
+              <span class="jobline">
+                <ul>
+                  <li>Fixed bugs and generally maintained backend</li>
+                  <li>Added new features including SSO integration</li>
+                  <li>Updated endpoints for API call</li>
+                </ul>
+                <br>
+              </span>
+            </div>
+          </div>
+          <div class="paragraph firstparagraph">
+            <span class="dates_wrapper">
+              <span class="jobdates" format="%m/%Y">Apr 2018</span>
+              <span> to </span>
+              <span class="jobdates" format="%m/%Y">Oct 2018</span>
+            </span>
+            <div class="singlecolumn">
+              <span class="paddedline">
+                <span class="jobtitle">JavaScript/Extendscript Developer</span>
+                <span></span>
+              </span>
+              <span class="paddedline">
+                <span class="companyname">Certiport</span>
+                <span class="joblocation jobcity">American Fork</span>
+                <span class="joblocation jobstate">Utah</span>
+                <br>
+              </span>
+              <span class="jobline">
+                <ul>
+                  <li>Wrote scoring scripts in es3 Extendscript for Adobe Certifications</li>
+                  <li>Beat deadlines by 6-8 weeks on multiple projects</li>
+                  <li>Created a framework that took scoring from multiple days for an item to multiple minutes for an item</li>
+                  <li>Learned how to think outside the box and problem solve deeper</li>
+                </ul>
+                <br>
+              </span>
+            </div>
+          </div>
+          <div class="paragraph">
+            <span class="dates_wrapper">
+              <span class="jobdates" format="%m/%Y">Aug 2016</span>
+              <span> to </span>
+              <span class="jobdates" format="%m/%Y">Apr 2018</span>
+            </span>
+            <div class="singlecolumn">
+              <span class="paddedline">
+                <span class="jobtitle">Lead Instructor and Subject Matter Expert</span>
+                <span></span>
+              </span>
+              <span class="paddedline">
+                <span class="companyname">The New York Code + Design Academy</span>
+                <span class="joblocation jobcity">West Valley</span>
+                <span class="joblocation jobstate">Utah</span>
+                <br>
+              </span>
+              <span class="jobline">
+                <ul>
+                  <li>Mentored and guided students to learn full-stack Ruby on Rails, the front end basics, and Git &amp; GitHub.</li>
+                  <li>Contributed to free, open-to-community teaching events by making simple JavaScript code that anyone can learn.</li>
+                  <li>Improved the teaching curriculum company wide through testing and giving feedback.</li>
+                </ul>
+                <br>
+              </span>
+            </div>
+          </div>
+          <!-- <div class="paragraph">
+            <span class="dates_wrapper">
+              <span class="jobdates" format="%m/%Y">July 2015</span>
+              <span> to </span>
+              <span class="jobdates" format="%m/%Y">Aug 2016</span>
+            </span>
+            <div class="singlecolumn">
+              <span class="paddedline">
+                <span class="jobtitle">Junior Partner</span>
+                <span></span>
+              </span>
+              <span class="paddedline">
+                <span class="companyname">Apex Energy Solutions</span>
+                <span class="joblocation jobcity"></span>
+                <span class="joblocation jobstate"></span>
+                <br>
+              </span>
+              <span class="jobline">
+                <ul>
+                  <li>Cold called at people's houses (door to door)</li>
+                  <li>Competed to win most appointments set and most closed</li>
+                  <li>Learned everyday, set goals, reached or beat them</li>
+                </ul>
+                <br>
+              </span>
+            </div>
+          </div> -->
+          <div class="paragraph">
+            <span class="dates_wrapper">
+              <span class="jobdates" format="%m/%Y">Jan 2014</span>
+              <span> to </span>
+              <span class="jobdates" format="%m/%Y">Apr 2015</span>
+            </span>
+            <div class="singlecolumn">
+              <span class="paddedline">
+                <span class="jobtitle">Solutions Consultant - Intern</span><span></span>
+              </span>
+              <span class="paddedline">
+                <span class="companyname">Crossfuze Solutions</span>
+                <span class="joblocation jobcity">Provo</span>
+                <span class="joblocation jobstate">Utah</span>
+                <br>
+              </span>
+              <span class="jobline">
+                <ul>
+                  <li>Installed and configured the BDNA/Crossfuze Technopedia Catalog and Normalize in customer environments.</li>
+                  <li>Assisted in the installation of these programs in more then five customer environments.</li>
+                  <li>Converted an extensive Eureka application to the new Fuji Scoped App model which included updating Script Includes, UI Configurations, and custom System Properties.</li>
+                  <li>Focused on improving system efficiency as well as finding better ways to implement ideas.</li>
+                  <li>Built custom script to automate update set deployments into customer instances which reduced human error and significantly increased the speed of deployments.</li>
+                </ul>
+                <br>
+              </span>
+            </div>
+          </div>
+          <div id="PARAGRAPH_925746285_4_608404411" class="paragraph">
+            <span class="dates_wrapper">
+              <span class="jobdates" format="%m/%Y">Apr 2013</span>
+              <span> to </span>
+              <span class="jobdates" format="%m/%Y">Aug 2013</span>
+            </span>
+            <div class="singlecolumn">
+              <span class="paddedline">
+                <span class="jobtitle">Front End Engineer</span>
+                <span></span>
+              </span>
+              <span class="paddedline">
+                <span class="companyname">Corporation of the Presiding Bishop of the Church of Jesus Christ of Latter-day Saints</span>
+                <span class="joblocation jobcity">Riverton</span>
+                <span class="joblocation jobstate">Utah</span>
+                <br>
+              </span>
+              <span class="jobline">
+                <ul>
+                  <li>Assisted in adapting Python scripts for an upgrade to UCMDB 10 so that the team could manage the corporations assets more efficiently.</li>
+                  <li>Designed and developed front end of internal server managing web app that allowed for a single point of
+                  access to the 15 servers they manage.</li>
+                  <li>Planned and developed web app iteratively so that we could make appropriate changes as the needs of the
+                  team changed.</li>
+                </ul>
+                 <br>
+               </span>
+              </div>
+            </div>
+            <!-- <div class="paragraph">
+              <span class="dates_wrapper">
+                <span class="jobdates" format="%m/%Y">Nov 2012</span>
+                <span> to </span>
+                <span class="jobdates" format="%m/%Y">Nov 2013</span>
+              </span>
+              <div class="singlecolumn">
+                <span class="paddedline">
+                   <span class="jobtitle">Web Developer</span>
+                   <span></span>
+                </span>
+                <span class="paddedline">
+                  <span class="companyname">McKay School of Education</span>
+                  <span class="joblocation jobcity"></span>
+                  <span class="joblocation jobstate"></span>
+                  <br>
+                </span>
+                <span class="jobline">
+                  <ul>
+                  <li>Developed pages in JavaScript (including AJAX), PHP, JQuery, HTML, and CSS.</li>
+                  <li>Wrote a PHP script--which involved cURL--for sending books to a web server for readability calculations so teachers can use age appropriate readings for classes based on results the script parsed through.</li>
+                  <li>Coordinated two-month training exercises for proficiency and speed for new employees which decreased training time and increased proficiency level.</li>
+                </ul>
+                <br>
+              </span>
+            </div>
+          </div> -->
+        <div class="section" style="position: relative;">
+          <div class="heading topborder">
+              <div class="sectiontitle">Certifications</div>
+          </div>
+          <div class="paragraph firstparagraph">
+            <div class="field singlecolumn">Certified System Administrator ServiceNow - The Enterprise IT Cloud Company February 2014</div>
+          </div>
+        <div class="section" style="position: relative;">
+          <div class="heading topborder">
+            <div class="sectiontitle">Education</div>
+          </div>
+          <div class="paragraph firstparagraph">
+            <span class="dates_wrapper">
+              <span class="jobdates">2015</span>
+            </span>
+            <div class="singlecolumn">
+              <span class="paddedline">
+                <span class="degree">Bachelor of Science</span><span>: </span>
+                  <span class="programline"></span>
+                  <br>
+                </span>
+                <span class="paddedline">
+                  <span class="companyname companyname_educ">Brigham Young University</span><span> - </span>
+                  <span class="joblocation jobcity">Provo</span><span>, </span>
+                  <span class="joblocation jobstate">UT</span>
+                  <br>
+                </span>
+              <span class="field"></span>
+            </div>
+          </div>
+    </div>
+  </body>
+</html>
